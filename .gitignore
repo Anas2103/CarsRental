@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Builds & caches
+dist/
+dist-ssr/
+public/build/
+public/hot/
+public/storage/
+storage/*.key
+.phpunit.result.cache
+.phpunit.cache/
+
+# Local databases & dumps
+*.sqlite
+*.sqlite-journal
+*.sql
+
+# Logs & OS / editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
