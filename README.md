@@ -1,6 +1,6 @@
 # CarsRental — Enterprise Car Rental Management System
 
-A production-ready, full-stack car rental management system built with **Laravel 11** (REST API) and **React 18** (Vite + Tailwind CSS).
+A production-ready, full-stack car rental management system built with **Laravel 12** (REST API) and **React 19** (Vite + Tailwind CSS).
 
 ---
 
@@ -23,7 +23,7 @@ A production-ready, full-stack car rental management system built with **Laravel
 
 ```
 CarsRental/
-├── backend/          # Laravel 11 REST API
+├── backend/          # Laravel 12 REST API
 │   ├── app/
 │   │   ├── Http/
 │   │   │   ├── Controllers/   # Thin controllers, delegate to services
@@ -41,7 +41,7 @@ CarsRental/
 │   ├── routes/api.php         # All API routes with middleware groups
 │   └── tests/Feature/        # PHPUnit feature tests
 │
-└── frontend/         # React 18 + Vite + Tailwind CSS
+└── frontend/         # React 19 + Vite + Tailwind CSS
     └── src/
         ├── context/           # AuthContext + ToastContext (React Context API)
         ├── services/          # Axios-based API service layer
@@ -420,3 +420,15 @@ Tests cover:
 - Overlap prevention
 - Vehicle CRUD with soft delete
 - File upload with validation
+
+---
+
+## More projects
+
+- [**E-Commerce**](https://github.com/Anas2103/Ecommerce) — multi-vendor store with Stripe & PayPal (Laravel · React) · [live demo](https://anas2103-ecommerce.vercel.app)
+- [**HireMatch**](https://github.com/Anas2103/AiJobBoard) — AI job board that scores CVs against jobs (Laravel · React · OpenAI)
+- [**Relay**](https://github.com/Anas2103/Relay) — Telegram-style chat with E2EE secret chats and calls (Cloudflare Workers · React) · [live demo](https://relay-chat.bunbunchat.workers.dev)
+- [**SmartCourse**](https://github.com/Anas2103/SmartCoursePlatform) — online course platform with Stripe and certificates (Laravel · React)
+- [**Student & Course Manager**](https://github.com/Anas2103/StudentsCourseManager) — school management with 4 roles (Laravel · React)
+
+More about me on my [GitHub profile](https://github.com/Anas2103).
